@@ -4,140 +4,181 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Timeless | Divertimento con un tocco di eleganza</title>
-  <meta name="description" content="Timeless - Sabato 10 Ottobre 2026. Festa privata con dress code Old Money.">
+  <meta name="description" content="Timeless - Sabato 10 Ottobre 2026. Evento privato con dress code Old Money.">
   <meta property="og:title" content="Timeless">
   <meta property="og:description" content="Divertimento con un tocco di eleganza. Sabato 10 Ottobre 2026.">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#20314D">
+  <meta name="theme-color" content="#17223B">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav class="nav" id="nav">
-    <a class="brand" href="#home">Timeless</a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Apri menu">☰</button>
-    <div class="menu" id="menu">
+  <nav class="nav">
+    <a href="#home" class="brand">Timeless</a>
+    <div class="nav-links">
+      <a href="#evento">Evento</a>
       <a href="#dresscode">Dress Code</a>
       <a href="#info">Info</a>
-      <a href="#location">Dove siamo</a>
-      <a href="#tickets">Biglietti</a>
-      <a href="#rules">Regolamento</a>
+      <a href="#biglietti">Biglietti</a>
+      <a href="#regolamento">Regolamento</a>
     </div>
   </nav>
 
   <header class="hero" id="home">
-    <div class="hero-content reveal">
-      <p class="eyebrow">Festa privata su invito</p>
+    <div class="hero-frame"></div>
+    <div class="hero-inner">
+      <p class="overline">Evento privato su invito</p>
       <h1>Timeless</h1>
-      <p class="slogan">Divertimento con un tocco di eleganza</p>
-      <div class="hero-details">
+      <p class="subtitle">Divertimento con un tocco di eleganza</p>
+      <div class="hero-meta">
         <span>Sabato 10 Ottobre 2026</span>
-        <span>18:00 - 00:00</span>
+        <span>18:00 — 00:00</span>
         <span>Rolo (RE)</span>
       </div>
-      <div class="hero-actions">
-        <a class="btn primary" href="#tickets">Prenota il tuo ingresso</a>
-        <a class="btn ghost" href="#dresscode">Scopri il dress code</a>
+      <div class="hero-buttons">
+        <a href="#biglietti" class="button primary">Prenota il tuo ingresso</a>
+        <a href="#dresscode" class="button secondary">Scopri il dress code</a>
       </div>
     </div>
-    <a class="scroll-down" href="#intro" aria-label="Scorri">⌄</a>
   </header>
 
   <main>
-    <section class="section intro" id="intro">
-      <div class="container narrow reveal">
-        <p class="section-kicker">L'evento</p>
-        <h2>Una serata elegante, senza tempo.</h2>
-        <p>Timeless nasce per creare un'atmosfera curata, raffinata e allo stesso tempo leggera: una festa privata in cui divertirsi, ballare e stare insieme con uno stile più elegante del solito.</p>
+    <section class="section intro" id="evento">
+      <div class="container split">
+        <div>
+          <p class="label">Il concept</p>
+          <h2>Una festa elegante, ma senza perdere il gusto di divertirsi.</h2>
+        </div>
+        <div>
+          <p>
+            <strong>Timeless</strong> nasce per creare un’atmosfera curata, raffinata e leggera:
+            una serata privata in cui stare insieme, ballare e vivere un’esperienza più elegante
+            del solito.
+          </p>
+          <p>
+            Il tono della serata è semplice: classe, dettagli puliti, colori neutri e tanta voglia
+            di divertirsi.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section class="section dresscode" id="dresscode">
-      <div class="container grid-2">
-        <div class="reveal">
-          <p class="section-kicker">Dress Code</p>
+    <section class="section dress" id="dresscode">
+      <div class="container split reverse">
+        <div class="dress-card">
+          <span>Dress Code</span>
           <h2>Old Money</h2>
-          <p>Il dress code richiesto è <strong>Old Money</strong>: colori neutri, linee classiche, tessuti semplici e dettagli raffinati. L'obiettivo non è ostentare, ma trasmettere eleganza senza tempo.</p>
-          <p class="note">Consigliati: bianco, avorio, beige, grigio, blu navy, nero e dettagli dorati. Evita colori fluo, stampe eccessive e abbigliamento sportivo.</p>
+          <p>
+            Eleganza senza tempo: linee classiche, colori neutri, dettagli raffinati.
+            Non serve ostentare, serve essere curati.
+          </p>
         </div>
-        <div class="palette reveal">
-          <div class="swatch" style="--c:#F8F6F2"><span>Avorio</span></div>
-          <div class="swatch" style="--c:#E8DED0"><span>Beige</span></div>
-          <div class="swatch" style="--c:#D7D7D2"><span>Grigio chiaro</span></div>
-          <div class="swatch" style="--c:#20314D"><span>Navy</span></div>
-          <div class="swatch" style="--c:#2B2B2B"><span>Antracite</span></div>
-          <div class="swatch" style="--c:#B79B63"><span>Oro satinato</span></div>
+
+        <div class="palette">
+          <div class="color ivory"><b>Avorio</b></div>
+          <div class="color beige"><b>Beige</b></div>
+          <div class="color grey"><b>Grigio chiaro</b></div>
+          <div class="color navy"><b>Navy</b></div>
+          <div class="color charcoal"><b>Antracite</b></div>
+          <div class="color gold"><b>Oro satinato</b></div>
         </div>
       </div>
     </section>
 
     <section class="section info" id="info">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-kicker">Informazioni</p>
-          <h2>Quando</h2>
+        <p class="label center">Informazioni</p>
+        <h2 class="center">Dettagli della serata</h2>
+
+        <div class="info-grid">
+          <div class="info-box">
+            <span>Data</span>
+            <strong>Sabato<br>10 Ottobre 2026</strong>
+          </div>
+          <div class="info-box">
+            <span>Inizio</span>
+            <strong>18:00</strong>
+          </div>
+          <div class="info-box">
+            <span>Ingresso entro</span>
+            <strong>20:00</strong>
+          </div>
+          <div class="info-box">
+            <span>Fine</span>
+            <strong>00:00</strong>
+          </div>
         </div>
-        <div class="cards">
-          <article class="card reveal"><span class="card-label">Data</span><h3>Sabato<br>10 Ottobre 2026</h3></article>
-          <article class="card reveal"><span class="card-label">Inizio</span><h3>18:00</h3></article>
-          <article class="card reveal"><span class="card-label">Ingresso entro</span><h3>20:00</h3></article>
-          <article class="card reveal"><span class="card-label">Fine evento</span><h3>00:00</h3></article>
-        </div>
-        <div class="countdown reveal" id="countdown">
-          <div><strong id="days">--</strong><span>Giorni</span></div>
-          <div><strong id="hours">--</strong><span>Ore</span></div>
-          <div><strong id="minutes">--</strong><span>Minuti</span></div>
-          <div><strong id="seconds">--</strong><span>Secondi</span></div>
+
+        <div class="location-panel">
+          <div>
+            <p class="label">Dove siamo</p>
+            <h3>Via A. Pertini, 1<br>Rolo (RE)</h3>
+            <p>L’ingresso sarà consentito dalle 18:00 ed entro e non oltre le 20:00.</p>
+          </div>
+          <a href="https://maps.app.goo.gl/WGgUiLns39b7yNDw6?g_st=ic" target="_blank" rel="noopener" class="button navy">Apri su Google Maps</a>
         </div>
       </div>
     </section>
 
-    <section class="section location" id="location">
-      <div class="container grid-2">
-        <div class="reveal">
-          <p class="section-kicker">Location</p>
-          <h2>Dove siamo</h2>
-          <p>L'evento si terrà in <strong>Via A. Pertini, 1, Rolo (RE)</strong>. Ti consigliamo di arrivare con un po' di anticipo: l'ingresso sarà consentito dalle 18:00 ed entro e non oltre le 20:00.</p>
-          <a class="btn secondary" href="https://maps.app.goo.gl/WGgUiLns39b7yNDw6?g_st=ic" target="_blank" rel="noopener">Apri su Google Maps</a>
-        </div>
-        <div class="map-card reveal"><div><span class="map-pin">⌖</span><h3>Via A. Pertini, 1</h3><p>Rolo (RE)</p></div></div>
-      </div>
-    </section>
-
-    <section class="section tickets" id="tickets">
+    <section class="section tickets" id="biglietti">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-kicker">Ingresso</p>
-          <h2>Acquista il biglietto</h2>
-          <p>Dopo l'acquisto riceverai via email il tuo biglietto PDF nominativo con QR Code. Ricordati di portarlo con te il giorno dell'evento.</p>
-        </div>
+        <p class="label center">Biglietti</p>
+        <h2 class="center">Scegli il tuo ingresso</h2>
+        <p class="center max">
+          Dopo l’acquisto riceverai via email il tuo biglietto PDF nominativo con QR Code.
+          Ricordati di portarlo con te il giorno dell’evento.
+        </p>
+
         <div class="ticket-grid">
-          <article class="ticket-card reveal"><span class="ticket-type">Basic</span><div class="price">5€</div><ul><li>Accesso all'evento</li><li>Biglietto nominativo</li><li>QR Code personale</li></ul><a class="btn primary full" href="https://docs.google.com/forms/d/e/1FAIpQLSeAN1ZaFgnXwj2jyfGnuEeLC1TvUi9U5IaZZJ-cmzciqfqPOw/viewform?usp=dialog" target="_blank" rel="noopener">Acquista Basic</a></article>
-          <article class="ticket-card featured reveal"><span class="ticket-type">Plus</span><div class="price">7€</div><ul><li>Accesso all'evento</li><li>Biglietto nominativo</li><li>QR Code personale</li><li>Playlist collaborativa</li></ul><a class="btn primary full" href="https://docs.google.com/forms/d/e/1FAIpQLSeAN1ZaFgnXwj2jyfGnuEeLC1TvUi9U5IaZZJ-cmzciqfqPOw/viewform?usp=dialog" target="_blank" rel="noopener">Acquista Plus</a></article>
+          <article class="ticket">
+            <p>Ingresso Basic</p>
+            <h3>5€</h3>
+            <ul>
+              <li>Accesso all’evento</li>
+              <li>Biglietto nominativo</li>
+              <li>QR Code personale</li>
+            </ul>
+            <a class="button primary full" href="https://docs.google.com/forms/d/e/1FAIpQLSeAN1ZaFgnXwj2jyfGnuEeLC1TvUi9U5IaZZJ-cmzciqfqPOw/viewform?usp=dialog" target="_blank" rel="noopener">Acquista Basic</a>
+          </article>
+
+          <article class="ticket featured">
+            <p>Biglietto Plus</p>
+            <h3>7€</h3>
+            <ul>
+              <li>Accesso all’evento</li>
+              <li>Biglietto nominativo</li>
+              <li>QR Code personale</li>
+              <li>Playlist collaborativa</li>
+            </ul>
+            <a class="button primary full" href="https://docs.google.com/forms/d/e/1FAIpQLSeAN1ZaFgnXwj2jyfGnuEeLC1TvUi9U5IaZZJ-cmzciqfqPOw/viewform?usp=dialog" target="_blank" rel="noopener">Acquista Plus</a>
+          </article>
         </div>
-        <p class="small-note reveal">Le email di conferma sono generate automaticamente. Per eventuali problemi, contatta gli organizzatori.</p>
       </div>
     </section>
 
-    <section class="section rules" id="rules">
+    <section class="section rules" id="regolamento">
       <div class="container narrow">
-        <div class="section-heading reveal"><p class="section-kicker">Regolamento</p><h2>Poche regole, molta eleganza.</h2></div>
-        <div class="rules-list reveal">
-          <div><strong>Evento privato</strong><span>L'accesso è riservato agli invitati muniti di biglietto.</span></div>
-          <div><strong>QR Code obbligatorio</strong><span>Mostra il biglietto all'ingresso in formato digitale o PDF.</span></div>
-          <div><strong>Dress Code Old Money</strong><span>Attieniti al tema per contribuire all'atmosfera della serata.</span></div>
-          <div><strong>Ingresso entro le 20:00</strong><span>Dopo tale orario l'accesso potrebbe non essere garantito.</span></div>
+        <p class="label center">Regolamento</p>
+        <h2 class="center">Poche regole, molta eleganza.</h2>
+
+        <div class="rules-list">
+          <div><strong>Evento privato</strong><span>Accesso riservato agli invitati muniti di biglietto.</span></div>
+          <div><strong>QR Code obbligatorio</strong><span>Mostra il biglietto all’ingresso in formato digitale o PDF.</span></div>
+          <div><strong>Dress Code Old Money</strong><span>Abbigliamento curato, elegante e coerente con il tema.</span></div>
+          <div><strong>Ingresso entro le 20:00</strong><span>Dopo tale orario l’accesso potrebbe non essere garantito.</span></div>
           <div><strong>Alcol vietato</strong><span>È severamente vietato introdurre o consumare alcolici.</span></div>
-          <div><strong>Rispetto</strong><span>Rispetta gli invitati, gli organizzatori e la location.</span></div>
+          <div><strong>Rispetto</strong><span>Rispetta invitati, organizzatori e location.</span></div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer"><div><h2>Timeless</h2><p>Divertimento con un tocco di eleganza</p><span>Sabato 10 Ottobre 2026 · Rolo (RE)</span></div></footer>
-  <button class="to-top" id="toTop" aria-label="Torna su">↑</button>
-  <script src="script.js"></script>
+  <footer>
+    <h2>Timeless</h2>
+    <p>Divertimento con un tocco di eleganza</p>
+    <span>Sabato 10 Ottobre 2026 · Rolo (RE)</span>
+  </footer>
 </body>
 </html>
